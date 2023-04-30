@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link reel="stylesheet" type="text/css" href="/CSS/style.css">
+    <script src="/JS/script.js" defer></script>
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="headerTitle">To Do List</h1>
+    </header>
+    <div class="containerPage">
+        <section class="containerForm">
+            <h3 id="formTitle">Insira a atividade</h3>
+            <input type="text" name="title" id="activityName">
+            <input type="text" name="description" id="activityDescription">
+            <input type="submit" value="Add">
+        </section>
+        <section class="containerList">
+            <div class="containerItemList">
+                <div id="creteActivityName"></div>
+                <div id="creteActivityDescription"></div>
+                <button id="taskOk"></button>
+                <button id="taskEdit"></button>
+                <button id="taskDelete"></button>
+            </div>
+        </section>
+        <footer>
+            <div>&copy 2023 Gabriele Rockebach</div>
+        </footer>
+    </div>
+</body>
+
+</html>
